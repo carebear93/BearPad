@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity0"
+    tools:showIn="@layout/activity_activity0">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/EditText1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="0dp"
+        android:layout_height="355dp"
+        android:layout_marginBottom="105dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:gravity="top"
+        android:hint="Type here..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Title"
+        android:layout_width="333dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="Enter Title"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:background="@android:drawable/alert_light_frame"
+        tools:layout_editor_absoluteY="2dp" />
+
+
+</android.support.constraint.ConstraintLayout>
